@@ -1,0 +1,495 @@
+@media (min-width:320px) and (max-width:480px) { 
+    .header {
+        height: 300px;
+        background-image: url(images/ph1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+     }
+     .headerbox {
+         width: 100%;
+         height: 300px;
+         /* border: 1px solid red; */
+         position: relative;
+     }
+     .headerboxtext {
+         width: 95%;
+         height: 200px;
+         /* border: 1px solid greenyellow; */
+         padding: 20px 20px;
+         position: absolute;
+         left: 1%;
+         top: 10%;
+         display: flex;
+         justify-content: space-around;
+         flex-direction: column;
+     }
+     .blueturtle {
+         color: rgb(53, 53, 196);
+         font-size: 20px;
+     }
+     .btn1 {
+         width: 120px;
+         height: 35px;
+         background-color: rgb(54, 54, 114);
+         color: rgb(255, 255, 255);
+         border: none;
+     }
+     .aside {
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+    }
+    .asidebox {
+        width: 100%;
+        height: 485px;
+        position: relative;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .treebox {
+        width: 80%;
+        height: 100px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        top: -5%;
+        animation-name: tree;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+    @keyframes tree {
+        from {
+            top:-5%;
+        } 
+        to {
+            top: 0%;
+        }
+        
+    }
+    .box1 {
+        width: 50%;
+        height: 100px;
+        /* border: 1px solid red; */
+        background-color: rgb(184, 184, 184);
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box2 {
+        width: 50%;
+        height: 100px;
+        /* border: 1px solid red; */
+        background-color: rgb(136, 134, 134);
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box3 {
+        width: 50%;
+        height: 100px;
+        /* border: 1px solid red; */
+        background-color: rgb(58, 55, 55);
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textbig {
+        font-size: 10px;
+        color: white;
+    }
+    .textsmall {
+        color: white;
+        font-size: 2px;
+    }  
+    .ico {
+        width: 15px;
+        height: 15px;
+    }
+    .turtlebox {
+       /* width: 45%;
+        height: 200px;
+         border: 1px solid red; 
+        position: absolute;
+        top: 25%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; */
+        display: none;
+    }
+    .textbig1 {
+        /* font-size: 25px;
+        color: rgb(0, 0, 0); */
+        display: none;
+    }
+    .boxmodel {
+        width: 80%;
+        height: 200px;
+         /* border: 1px solid red;  */
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .boxmodelchild {
+         width: 100%;
+         height: 200px;
+         /* border: 1px solid red;  */
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+    }
+    .boxmodelchildbox {
+        width: 60%;
+        height: 67px;
+         /* border: 1px solid greenyellow;  */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .t {
+        font-size: 10px;
+    }
+  
+    .ph1 {
+        width: 80%;
+        height: 150px;
+        position: absolute;
+        left: 10%;
+        top: 70%; 
+    }
+    .ic {
+        width: 15px;
+        height: 15px;
+    }
+    .article {
+        height: 200px;
+        background-color: rgb(136, 134, 134);
+    }
+    .articlebox {
+        width: 100%;
+        height: 200px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .articleboxtextmod {
+        width: 66%;
+        height: 150px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .spans {
+        width: 100%;
+        height: 50px;
+        /* border: 1px solid; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sixdivs {
+        width: 95%;
+        height: 200px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .icons {
+        width: 10%;
+        height: 100px;
+        /* border: 1px solid greenyellow; */
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tt {
+        color: white;
+        font-size: 8px;
+    }
+    .textsmall1 {
+        color: white;
+        font-size: 8px;
+    }
+    .section {
+        height: 400px;
+        background-color: white;
+    }
+    .sectionbox {
+        width: 100%;
+        height: 400px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ph3 {
+        width: 70%;
+        height: 300px;
+    }
+    .box {
+        width: 77%;
+        height: 170px;
+        /* border: 1px solid red; */
+        padding: 20px 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .b {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .sp {
+        display: none;
+    }
+    .content {
+        height: 500px;
+        background-color: rgb(226, 226, 226);
+    }
+    .contentbox {
+        width:100%;
+        height: 500px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .textbigblack {
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+    }
+    .textsmall {
+        color: rgb(0, 0, 0);
+    }
+    .articleboxtextmod1 {
+        width: 65%;
+        height: 180px;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 5%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .treebox2 {
+        width: 83%;
+        height: 140px;
+        /* border: 1px solid rgb(64, 0, 255); */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        top: 10%;
+        animation-name: treee;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+    @keyframes treee {
+        from {
+            top: 10%;
+        } to {
+            top: 55%;
+        }
+    }
+    .box4 {
+        width: 32%;
+        height: 140px;
+        /* border: 1px solid greenyellow; */
+        background-color: white;
+        padding: 0px!important;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .turtles {
+        font-size: 10px;
+    }
+    .tree {
+        width: 100%;
+        height: 300px;
+    }
+    .o {
+        display: none;
+    }
+    .map {
+        height: 600px;
+        background-color: rgb(58, 55, 55);
+    }
+    .mapbox {
+        width: 100%;
+        height: 600px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ph7 {
+        width: 85%;
+        height: 300px;
+        opacity: 0.7;
+        border-radius: 70px;
+    
+    }
+    .specialist {
+        height: 516px;
+        background-color: white;
+    }
+    .specialistbox {
+        width: 100%;
+        height: 508px;
+        /* border: 1px solid red; */
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .articleboxtextmod2 {
+        width: 75%;
+        height: 120px;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 5%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .treephoto {
+        width: 80%;
+        height: 250px;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 38%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ph8 {
+        width: 33%;
+        height: 240px;
+    }
+    .treetext {
+        width: 80%;
+        height: 70px;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .smallboxtext1 {
+        width: 33%;
+        height: 60px;
+        /* border: 1px solid rgb(0, 255, 106); */
+        background-color: rgb(184, 184, 184);
+        padding: 15px 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .smallboxtext2 {
+        width: 33%;
+        height: 60px;
+        /* border: 1px solid rgb(0, 255, 106); */
+        background-color: rgb(136, 134, 134);
+        padding: 15px 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .smallboxtext3 {
+        width: 33%;
+        height: 60px;
+        /* border: 1px solid rgb(0, 255, 106); */
+        background-color: rgb(58, 55, 55);
+        padding: 15px 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .name {
+        font-size: 15px;
+    }
+    .name1 {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+    .wh {
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+    }
+    .b {
+        font-size: 10px;
+    }
+    .footer {
+        height: 500px;
+        background-color: rgb(136, 134, 134);
+    }
+    .footerbox {
+        width: 100%;
+        height: 500px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .forms {
+        width: 85%;
+        height: 300px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form {
+        width: 100%;
+        height: 300px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    input {
+        width: 100%;
+        height: 40px;
+        padding-left: 5px;
+        background-color: rgb(58, 55, 55);
+        border: none;
+    }
+    textarea {
+        width: 100%;
+        height: 100px;
+        padding-left: 5px;
+        background-color: rgb(58, 55, 55);
+        border: none;
+        resize: none;
+    }
+}
